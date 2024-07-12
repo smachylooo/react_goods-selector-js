@@ -22,7 +22,7 @@ export const App = () => {
     <main className="section container">
       {selectedValue ? (
         <h1 className="title is-flex is-align-items-center">
-          {selectedValue}
+          {selectedValue} is selected
           <button
             onClick={() => {
               setSelectedValue(null);
